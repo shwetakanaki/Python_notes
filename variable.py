@@ -56,3 +56,46 @@ print(l)
 del(l)
 print(l)
 
+
+
+#Dictionary 
+# it is collection type 
+# it is hetrogeneous 
+# duplicate values are allowed or repeataion of the values is allowed 
+# duplicate keys are not allowed 
+#it is ordered 
+#it is mutable 
+
+# syntax : var_name={ key1:value1,
+#                    key2:value2,..
+                   
+                   
+#                    }
+
+
+d={
+    'email':'xyz@gmail.com',
+    'name': 'bhavya',
+    'age':19,
+     
+   
+}
+
+print(d)
+
+# d.append(4)
+# print(d)
+
+
+d['contactno']=12345678
+print("adding the new value",d)
+
+d['contactno']=987653578
+print("updating the value",d)
+
+
+d.pop('age') # is used to remove the value using the key 
+print("removerd age ",d)
+
+d.clear()
+print(d)
