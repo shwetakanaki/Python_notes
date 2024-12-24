@@ -99,3 +99,38 @@ print("removerd age ",d)
 
 d.clear()
 print(d)
+
+set 
+it is one of the collection 
+it is hetrogeneous 
+it is not ordered
+it does not allow duplicate value
+it is mutable 
+
+Syntax  var_name={value1,value2,....}
+
+s={1,2,4,'cloud',4}
+print(s)
+# adding the new value 
+s.add(3)
+print(s)
+#removing the value 
+s.pop()
+print("poped value ",s)
+#deleting the given value 
+s.remove(3)
+print("removed function",s)
+
+
+
+#tuple 
+# it is one collection
+# it is immutable 
+# it is ordered 
+# it is hetrogenious 
+
+# Syntax: var_name=(value1,value2,...)
+
+t=(1,2,3,'cloud')
+print(t)
+
